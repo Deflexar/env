@@ -2,6 +2,9 @@ import os
 
 
 def env():
+    """
+    Method for reading .env file in project root.
+    """
     base_dir = os.path.abspath(os.path.dirname(__file__))
     file_path = os.path.join(base_dir, '.env')
 
