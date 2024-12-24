@@ -1,3 +1,6 @@
+import os
+
+
 def env():
     base_dir = os.path.abspath(os.path.dirname(__file__))
     file_path = os.path.join(base_dir, '.env')
