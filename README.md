@@ -4,7 +4,7 @@ Method for read .env file in project.
 example:
 ```py
 import os
-from your_file import env
+from utils import env
 
 env()
 
