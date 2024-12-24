@@ -9,5 +9,5 @@ from utils import env
 env()
 
 print(os.environ["PASSWORD"])
-print(os.getenv("PASSWORD))
+print(os.getenv("PASSWORD"))
 ```
